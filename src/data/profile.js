@@ -4,9 +4,9 @@
 
 export const profile = {
   name: "Yemi Mubaraqat Onifade",
-  shortName: "Yemi Onifade",
+  shortName: "Yemi Mubaraqat Onifade",
   role: "Data Scientist",
-  headline: "I turn health and public-service data into models and dashboards people can act on.",
+  headline: "I turn data into insights through analysis, visualisation, and machine learning.",
   location: "Nigeria",
   email: "yemimubaraqat@gmail.com",
   github: "Mubaraqat", // GitHub username: projects are pulled from here
@@ -18,9 +18,9 @@ export const profile = {
     "Today I work in Python, SQL, Power BI and Scikit-learn: cleaning messy data, exploring it, building predictive models and packaging the results into interactive dashboards.",
   ],
   highlights: [
-    "Documented and quality-controlled records for 1,700+ malaria slides and dried blood spot samples from multiple states.",
-    "Co-authored a peer-reviewed paper in the African Journal of Clinical and Experimental Microbiology.",
-    "Built end-to-end projects: a diabetes risk model with SMOTE and GridSearchCV, and a Streamlit sanitation dashboard.",
+    "Built end-to-end data science projects with Python and Streamlit.",
+    "Applied machine learning techniques including SMOTE and GridSearchCV.",
+    "Analysed healthcare and public health data to uncover meaningful insights.",
   ],
 };
 
@@ -33,9 +33,9 @@ export const skillCategories = [
     title: "Programming & Data",
     skills: [
       { name: "Python", level: 85 },
-      { name: "SQL", level: 78 },
+      { name: "SQL", level: 80 },
       { name: "Pandas", level: 85 },
-      { name: "NumPy", level: 78 },
+      { name: "NumPy", level: 85 },
     ],
   },
   {
@@ -43,25 +43,25 @@ export const skillCategories = [
     skills: [
       { name: "Excel", level: 90 },
       { name: "Power BI", level: 80 },
-      { name: "Matplotlib / Plotly", level: 76 },
-      { name: "Streamlit", level: 75 },
+      { name: "Matplotlib / Plotly", level: 80 },
+      { name: "Streamlit", level: 85 },
     ],
   },
   {
     title: "Machine Learning",
     skills: [
-      { name: "Scikit-learn", level: 78 },
-      { name: "Classification", level: 78 },
-      { name: "Regression", level: 75 },
-      { name: "Model Evaluation", level: 80 },
+      { name: "Scikit-learn", level: 85 },
+      { name: "Classification", level: 85 },
+      { name: "Regression", level: 85 },
+      { name: "Model Evaluation", level: 85 },
     ],
   },
   {
     title: "Research & Healthcare",
     skills: [
       { name: "Biomedical Research", level: 85 },
-      { name: "Infectious Disease Research", level: 80 },
-      { name: "Epidemiology", level: 65 },
+      { name: "Infectious Disease Research", level: 85 },
+      { name: "Epidemiology", level: 85 },
       { name: "Laboratory Quality Control", level: 90 },
     ],
   },
@@ -131,7 +131,6 @@ export const experience = [
 export const education = {
   degree: "Bachelor of Medical Laboratory Science (B.MLS)",
   school: "University of Ibadan, College of Medicine, Nigeria",
-  period: "2017 – 2024",
 };
 
 export const training = {
@@ -142,13 +141,10 @@ export const training = {
 };
 
 export const certifications = [
-  { name: "Foundations of Data Science", issuer: "Google", year: "2026" },
-  { name: "Get Started with Python", issuer: "Google", year: "2026" },
-  { name: "Go Beyond the Numbers: Translate Data into Insights", issuer: "Google", year: "2026" },
-  { name: "The Power of Statistics", issuer: "Google", year: "2026" },
-  { name: "Regression Analysis", issuer: "Google", year: "2026" },
-  { name: "Data Science: Python for Data Analysis Full Bootcamp", issuer: "Udemy", year: "2026" },
+  { name: "Google Advanced Data Analytics", issuer: "Google", year: "2026" },
+  {Data Analysis Full Bootcamp", issuer: "Udemy", year: "2026" },
   { name: "Excel Basics for Data Analysis", issuer: "IBM", year: "2024" },
+  { name: "Bioinformatics for Biologists", issuer: "FutureLearn", year: "2023" },
 ];
 
 export const publication = {

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-page font-sans text-paper antialiased; }
+  ::selection { background: rgba(110, 231, 208, 0.45); }
+  :focus-visible { outline: 2px solid #0F766E; outline-offset: 3px; border-radius: 6px; }
+}
+
+@layer components {
+  .bg-grid {
+    background-image: radial-gradient(rgba(11, 16, 32, 0.12) 1px, transparent 1px);
+    background-size: 28px 28px;
+    -webkit-mask-image: radial-gradient(ellipse at 50% 25%, #000 15%, transparent 75%);
+    mask-image: radial-gradient(ellipse at 50% 25%, #000 15%, transparent 75%);
+  }
+  .panel {
+    @apply rounded-2xl border border-ink-900/10 bg-white/80 shadow-sm shadow-ink-900/5 backdrop-blur-sm;
+  }
+  .btn { @apply inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors; }
+  .btn-primary { @apply bg-ink-900 text-white hover:bg-signal-dim; }
+  .btn-ghost { @apply border border-ink-900/20 bg-white/60 text-paper hover:border-signal-dim hover:text-signal-dim; }
+}
+
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes pop { from { opacity: 0; transform: scale(0.2); } to { opacity: 1; transform: scale(1); } }
+.plot-line { stroke-dasharray: 420; stroke-dashoffset: 420; animation: draw 1.6s 1.1s ease-out forwards; }
+.plot-dot { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop 0.45s ease-out forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .plot-line { animation: none; stroke-dashoffset: 0; }
+  .plot-dot { animation: none; opacity: 1; }
+  * { transition-duration: 0.01ms !important; }
+}

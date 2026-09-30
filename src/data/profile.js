@@ -142,7 +142,7 @@ export const training = {
 
 export const certifications = [
   { name: "Google Advanced Data Analytics", issuer: "Google", year: "2026" },
-  {Data Analysis Full Bootcamp", issuer: "Udemy", year: "2026" },
+  { name: "Data Analysis Full Bootcamp", issuer: "Udemy", year: "2026" },
   { name: "Excel Basics for Data Analysis", issuer: "IBM", year: "2024" },
   { name: "Bioinformatics for Biologists", issuer: "FutureLearn", year: "2023" },
 ];

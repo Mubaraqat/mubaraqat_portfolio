@@ -122,7 +122,7 @@ export const experience = [
     org: "University of Ibadan",
     period: "Research project",
     points: [
-      "Investigated parasitic contamination of fresh fruits retailed at major markets in Ibadan.",
+      "Investigated parasitic contamination of fresh fruits sold at major markets in Ibadan.",
       "Contributed to data collection, laboratory analysis, interpretation and scientific reporting.",
     ],
   },

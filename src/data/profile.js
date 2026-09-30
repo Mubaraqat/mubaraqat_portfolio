@@ -72,7 +72,7 @@ export const skillCategories = [
 export const repoOverrides = {};
 
 // Repos to leave out of the grid: your profile README repo, and the two that get their own showcase cards.
-export const hiddenRepos = ["Mubaraqat", "SanTrack-Admin-Dashboard", "Diabetes-Prediction-Model", "mubaraqat_portfolio", "Mubaraqat-s-portfolio"];
+export const hiddenRepos = ["Mubaraqat", "SanTrack-Admin-Dashboard", "Diabetes-Prediction-Model", "mubaraqat_portfolio", "Mubaraqat-s-portfolio", "zero_day", "alx-pre-course", "alx-low_level_programming", "alx-system_engineering-devops"];
 
 // Projects with a live app get a large preview card.
 // To use a real screenshot, save it as public/previews/<id>.png (16:10 works best): it replaces the illustration automatically.
